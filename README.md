@@ -6,7 +6,7 @@ It produces both **static maps** and **interactive maps** of the road networks, 
 
 ---
 
-## 📌 Features
+##  Features
 
 - Fetches administrative boundaries for given cities from OpenStreetMap
 - Downloads and processes road network data using OSMnx
@@ -16,14 +16,14 @@ It produces both **static maps** and **interactive maps** of the road networks, 
 
 ---
 
-## 📂 Dataset Source
+##  Dataset Source
 
 - All spatial data is fetched directly from **OpenStreetMap** via OSMnx’s API.
 - No separate dataset download is required.
 
 ---
 
-## 🛠 Requirements
+##  Requirements
 
 Make sure you have Python installed (>=3.8).  
 Install dependencies with:
@@ -34,7 +34,7 @@ pip install osmnx networkx geopandas matplotlib folium pandas
 
 ---
 
-## 🚀 Usage
+## Usage
 
 1. **Clone this repository**
 
@@ -59,19 +59,19 @@ pip install osmnx networkx geopandas matplotlib folium pandas
 
 ---
 
-## 📜 Step-by-Step Explanation of the Code
+##  Step-by-Step Explanation of the Code
 
 *(Includes installing libraries, defining cities, plotting boundaries, downloading graphs, generating static and interactive maps, and computing metrics)*
 
 ---
 
-## 📊 Results & Interpretation
+##  Results & Interpretation
 
 This project generates the main outputs:
 
 ###  Road Network Metrics Table**
 
-**📊 Network Metrics Summary:**
+** Network Metrics Summary:**
 
 | City    | Total Street Length (km) | Street Density (km/km²) | Intersection Density (/km²) | Avg Streets per Node |
 | ------- | ------------------------ | ----------------------- | --------------------------- | -------------------- |
@@ -99,7 +99,7 @@ This project generates the main outputs:
 
 ## 👤 Author
 
-* **Your Name**
+* **Suman Bhowmick**
   📧 [sumanbhowmick768@gmail.com](mailto:sumanbhowmick768@gmail.com)
   🌐 [GitHub Profile](https://github.com/Suman1801)
 
